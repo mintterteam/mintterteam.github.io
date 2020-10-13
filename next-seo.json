@@ -1,0 +1,28 @@
+{
+  "title": "Mintter",
+  "titleTemplate": "%s | Mintter.com",
+  "description": "THis is my Next.js TypeScript Tailwind Site",
+  "additionalMetaTags": [
+    {"property": "author", "content": "Horacio Herrera"},
+    {
+      "property": "keywords",
+      "content": ""
+    }
+  ],
+  "twitter": {
+    "cardType": "summary",
+    "handle": "mintter_",
+    "site": "mintter_"
+  },
+  "openGraph": {
+    "type": "website",
+    "site_name": "Mintter's Site",
+    "images": [
+      {
+        "url": "/images/og.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  }
+}
