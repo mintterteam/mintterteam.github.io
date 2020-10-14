@@ -25,6 +25,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run build
+        env:
+          NEXT_PUBLIC_DEPLOYMENT_URL: https://mintter.com
       - run: npm run export
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
