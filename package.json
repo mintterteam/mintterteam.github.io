@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "NODE_ENV=production next build",
     "postbuild": "NODE_ENV=production next-sitemap",
+    "export": "next export",
     "start": "next start",
     "test": "jest --watch"
   },
