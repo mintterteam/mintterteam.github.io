@@ -1,6 +1,8 @@
 import React, {FunctionComponent} from 'react'
 import Link from 'next/link'
 import {NextSeo} from 'next-seo'
+import Head from 'next/head'
+
 import Footer from '../components/footer'
 
 type LayoutProps = {
@@ -20,6 +22,9 @@ const DefaultLayout: FunctionComponent<LayoutProps> = ({
   } = frontMatter
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.svg" />
+      </Head>
       <NextSeo
         title={title}
         description={description}
