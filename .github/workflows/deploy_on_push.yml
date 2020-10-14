@@ -23,11 +23,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build
+      - name: Build 🛠
         env:
           NEXT_PUBLIC_DEPLOYMENT_URL: https://mintter.com
-      - run: npm run export
+        run: |
+          npm ci
+          npm run build
+          npm run export
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
