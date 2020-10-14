@@ -18,10 +18,17 @@ module.exports = {
           strong: {
             color: theme('colors.gray.900'),
           },
+          a: {
+            color: theme('colors.blue.700'),
+          },
         },
       },
     }),
-    extend: {},
+    extend: {
+      maxWidth: {
+        custom: '50ch',
+      },
+    },
   },
   variants: {},
   plugins: [require('@tailwindcss/typography')],
