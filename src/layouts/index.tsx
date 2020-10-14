@@ -32,7 +32,7 @@ const DefaultLayout: FunctionComponent<LayoutProps> = ({
         }}
         canonical={url}
       />
-      <div className="min-h-screen min-w-screen bg-gray-100 px-4 md:px-6">
+      <div className="min-h-screen min-w-screen bg-gray-100 px-8 md:px-12 pt-12">
         <div className="max-w-custom w-full pt-8 prose xs:prose-lg lg:prose-xl 2xl:prose-2xl pb-16">
           <div>
             <Link href="/">
