@@ -26,7 +26,7 @@ module.exports = {
     }),
     extend: {
       maxWidth: {
-        custom: '44ch',
+        custom: '40ch',
       },
     },
   },
