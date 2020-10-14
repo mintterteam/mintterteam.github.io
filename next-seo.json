@@ -1,7 +1,7 @@
 {
   "title": "Mintter",
   "titleTemplate": "%s | Mintter.com",
-  "description": "THis is my Next.js TypeScript Tailwind Site",
+  "description": "This is my Next.js TypeScript Tailwind Site",
   "additionalMetaTags": [
     {"property": "author", "content": "Horacio Herrera"},
     {
