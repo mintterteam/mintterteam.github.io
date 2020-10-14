@@ -30,7 +30,7 @@ const Home: FunctionComponent<LayoutProps> = ({children, frontMatter}) => {
         canonical={url}
       />
       <div className="min-h-screen min-w-screen bg-gray-100 px-4 md:px-6">
-        <div className="prose max-w-3xl w-full pt-8 prose-2xl pb-32">
+        <div className="max-w-3xl w-full pt-8 prose xs:prose-lg lg:prose-xl 2xl:prose-2xl pb-32">
           <h1 className="m-0 p-0">{title}</h1>
           {children}
         </div>

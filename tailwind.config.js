@@ -12,10 +12,11 @@ module.exports = {
     typography: (theme) => ({
       default: {
         css: {
-          color: theme('colors.gray.600'),
+          fontSize: '1.125rem',
+          color: theme('colors.gray.900'),
 
           strong: {
-            color: theme('colors.gray.700'),
+            color: theme('colors.gray.900'),
           },
         },
       },
